@@ -1,0 +1,969 @@
+html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Microsoft Yahei' Helvetica;
+  font-size: 1.2rem;
+  height: 100%;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.container .pagelist {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+}
+.container .pagelist.horizontal section {
+  min-height: 100%;
+  float: left;
+}
+.container .pagelist section {
+
+  /*display: box;*/
+  visibility: hidden;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;  /*background-color: #ff5800;*/
+  background-size: cover;
+}
+.container .pagelist section.active {
+  visibility: visible;
+}
+.container .pagelist .page1{
+	background-color: #f6f6f6;
+	position: relative;
+}
+.container .pagelist .page1 .left-logo{
+	position: absolute;
+	width: 7.25rem;
+	top: 0;
+	left: 0.38rem;
+}
+.container .pagelist .page1 .right-logo{
+	position: absolute;
+	width: 4rem;
+	top: 0.25rem;
+	right: 0.38rem;
+}
+.container .pagelist .page1 .top-bg{
+	width: 18.75rem;
+	position: absolute;
+	top: 2.6rem;
+	left: 0;
+	z-index: 1;
+}
+.container .pagelist .page1 .bottom-bg{
+	width: 18.75rem;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+}
+.container .pagelist .page1 .orange-bg{
+	width: 18.75rem;
+	position: absolute;
+	top:7rem;
+	left: 0;
+	z-index: 2;
+}
+.container .pagelist .page1 .main-title{
+	width: 12.13rem;
+	position: absolute;
+	top: 11.38rem;
+	left: 2.88rem;
+	z-index:3 ;
+}
+.container .pagelist .page1 .second-title{
+	width: 7.2rem;
+	position: absolute;
+	top: 23.43rem;
+	left: 5.28rem;
+	z-index: 2;
+}
+.container .pagelist .page1 .little-title{
+	width: 1.8rem;
+	position: absolute;
+	top: 8.2rem;
+	left: 3.68rem;
+	z-index: 3;
+}
+.container .pagelist .page2{
+	background-color: #f6f6f6;
+	position: relative;
+}
+.container .pagelist .page2 .main-title{
+	width: 11.55rem;
+	position: absolute;
+	top: 1.88rem;
+	left: 3.62rem;
+	z-index: 1;
+}
+.container .pagelist .page2 .main-bg{
+	width: 18.75rem;
+	position: absolute;
+	top: 7.25rem;
+	left: 0;
+	z-index: 1;
+	}
+.container .pagelist .page2 .orange-1{
+	width: 2.75rem;
+	position: absolute;
+	top: 9.63rem;
+	left: 2.88rem;
+	-moz-transform:rotate(-90deg);
+  -webkit-transform:rotate(-90deg);
+  z-index: 2;
+}
+.container .pagelist .page2 .orange-2{
+	width: 2.38rem;
+	position: absolute;
+	top:19.25rem ;
+	left: 1.25rem;
+	-moz-transform:rotate(-75deg);
+    -webkit-transform:rotate(-75deg);
+    z-index: 2;
+}
+.container .pagelist .page2 .orange-3{
+	width: 2.25rem;
+	position: absolute;
+	top:23.75rem ;
+	left: 3.88rem;
+  z-index: 2;	
+}
+.container .pagelist .page2 .orange-4{
+	width: 2.88rem;
+	position: absolute;
+	top:20.25rem ;
+	right: 2.5rem;
+	z-index: 2;
+}
+.container .pagelist .page2 .rocket{
+	width: 7.63rem;
+	position: absolute;
+	top: 8rem;
+	left: 5.88rem;
+	z-index: 2;
+}
+.container .pagelist .page2 .left-fire{
+	width: 5rem;
+	position: absolute;
+	top: 16.95rem;
+	left: 4.8rem;
+	z-index: 1;
+	transform: rotate(40deg);
+}
+.container .pagelist .page2 .right-fire{
+	width: 5rem;
+	position: absolute;
+	top: 17.2rem;
+	left: 6.83rem;
+	z-index: 1;
+	transform: rotate(-40deg);
+}
+.container .pagelist .page2 .bottom-fire{
+	width: 5rem;
+	position: absolute;
+	top: 17.95rem;
+	left: 5.43rem;
+	z-index: 1;
+}
+.container .pagelist .page2 .tips {
+	position: absolute;
+	/*top: 27.75rem;*/
+	bottom: 0.5rem;
+	right: 0.23rem;
+	font-size: 0.6em;
+position: absolute;
+	/*top: 27.75rem;*/
+	bottom: 1.7rem;
+	right: 0.23rem;
+	font-size: 0.6em;
+position: absolute;
+	/*top: 27.75rem;*/
+	bottom: 1.7rem;
+	right: 0.23rem;
+	font-size: 0.6em;
+	font-family: "微软雅黑";
+}
+.container .pagelist .page2 .tips img{
+	width: 1rem;
+	-moz-transform:rotate(-45deg);
+    -webkit-transform:rotate(-45deg);
+}
+.container .pagelist .page3{
+	background-color: #f6f6f6;
+	position: relative;
+}
+.container .pagelist .page3 .main-title{
+	width: 13.14rem;
+	position: absolute;
+	top: 1.85rem;
+	left: 2.8rem;
+}
+.container .pagelist .page3 .main-bg{
+	width: 18.75rem;
+	position: absolute;
+	top: 7.5rem;
+}
+.container .pagelist .page3 .orange-1{
+	width: 2.5rem;
+	position: absolute;
+	top: 8.34rem;
+	left:2.7rem;
+}
+.container .pagelist .page3 .astronaut{
+	width: 12.13rem;
+	position: absolute;
+	top: 9.75rem;
+	left: 3.25rem;
+}
+.container .pagelist .page3 .shadow{
+	width: 6.63rem;
+	position: absolute;
+	top: 24rem;
+	left: 6rem;
+}
+.container .pagelist .page3 .tips {
+	position: absolute;
+	/*top: 27.75rem;*/
+	bottom: 0.5rem;
+	right: 0.23rem;
+	font-size: 0.6em;
+position: absolute;
+	/*top: 27.75rem;*/
+	bottom: 1.7rem;
+	right: 0.23rem;
+	font-size: 0.6em;
+position: absolute;
+	/*top: 27.75rem;*/
+	bottom: 1.7rem;
+	right: 0.23rem;
+	font-size: 0.6em;
+	font-family: "微软雅黑";
+}
+.container .pagelist .page3 .tips img{
+	width: 1rem;
+	-moz-transform:rotate(-45deg);
+    -webkit-transform:rotate(-45deg);
+}
+
+.container .pagelist .page4{
+	background-color: #F6F6F6;
+	position: relative;
+}
+
+.container .pagelist .page4 .main-title {
+	width: 11.5rem;
+	position: absolute;
+	top: 1.88rem;
+	left: 3.63rem;
+}
+.container .pagelist .page4 .main-bg{
+	width: 18.75rem;
+	position: absolute;
+	top: 7.13rem;
+	z-index: 1;
+}
+.container .pagelist .page4 .plant{
+	width: 10rem;
+	position: absolute;
+	top: 10.13rem;
+	left: 4.25rem;
+	z-index: 2;
+}
+.container .pagelist .page4 .track{
+	width: 5.75rem;
+	position: absolute;
+	top:16.88rem ;
+	left: 3.9rem;
+	z-index: 3;
+}
+.container .pagelist .page4 .rocket{
+	width: 2.38rem;
+	position: absolute;
+	top: 13.75rem;
+	left: 9.13rem;
+	z-index: 4;
+}
+.container .pagelist .page4 .orange-1{
+	width: 2.88rem;
+	position: absolute;
+	top:20.25rem ;
+	right: 2.5rem;
+	z-index: 10;
+}
+.container .pagelist .page4 .tips {
+	position: absolute;
+	/*top: 27.75rem;*/
+	bottom: 1.7rem;
+	right: 0.23rem;
+	font-size: 0.6em;
+position: absolute;
+	/*top: 27.75rem;*/
+	bottom: 1.7rem;
+	right: 0.23rem;
+	font-size: 0.6em;
+position: absolute;
+	/*top: 27.75rem;*/
+	bottom: 1.7rem;
+	right: 0.23rem;
+	font-size: 0.6em;
+	font-family: "微软雅黑";
+}
+.container .pagelist .page4 .tips img{
+	width: 1rem;
+	-moz-transform:rotate(-45deg);
+    -webkit-transform:rotate(-45deg);
+}
+
+.container .pagelist .page5{
+	background-color: #F6F6F6;
+	position: relative;
+}
+
+.container .pagelist .page5 .main-title {
+	width: 11.5rem;
+	position: absolute;
+	top: 1.88rem;
+	left: 3.63rem;
+}
+
+.container .pagelist .page5 .main-bg{
+	width: 18.75rem;
+	position: absolute;
+	top: 2.38rem;
+	z-index: 1;
+}
+.container .pagelist .page5 .spaceship{
+	width: 11.75rem;
+	position: absolute;
+	top: 5.88rem;
+	left: 2rem;
+	z-index: 3;
+}
+.container .pagelist .page5 .light{
+	width: 13.63rem;
+	position: absolute;
+	top: 13rem;
+	left: 4.7rem;
+	z-index: 2;
+}
+.container .pagelist .page5 .orange-1{
+	width: 2.3rem;
+	position: absolute;
+	top: 16.5rem;
+	left: 7.88rem;
+	z-index: 3;
+	-moz-transform:rotate(-90deg);
+    -webkit-transform:rotate(-90deg);
+}
+.container .pagelist .page5 .orange-2{
+	width: 2.63rem;
+	position: absolute;
+	top: 18.85rem;
+	left: 11.1rem;
+	z-index: 3;
+}
+.container .pagelist .page5 .orange-3{
+	width: 2.15rem;
+	position: absolute;
+	top: 22.13rem;
+	left: 7.93rem;
+	z-index: 3;
+}
+.container .pagelist .page5 .tips {
+	position: absolute;
+	/*top: 27.75rem;*/
+	bottom: 0.5rem;
+	right: 0.23rem;
+	font-size: 0.6em;
+position: absolute;
+	/*top: 27.75rem;*/
+	bottom: 1.7rem;
+	right: 0.23rem;
+	font-size: 0.6em;
+position: absolute;
+	/*top: 27.75rem;*/
+	bottom: 1.7rem;
+	right: 0.23rem;
+	font-size: 0.6em;
+	font-family: "微软雅黑";
+}
+.container .pagelist .page5 .tips img{
+	width: 1rem;
+	-moz-transform:rotate(-45deg);
+    -webkit-transform:rotate(-45deg);
+}
+
+
+.container .pagelist .page6{
+	background-color: #F6F6F6;
+	position: relative;
+}
+
+.container .pagelist .page6 .main-title {
+	width: 12.6rem;
+	position: absolute;
+	top: 1.88rem;
+	left: 3.1rem;
+	z-index: 5;
+}
+.container .pagelist .page6 .main-bg{
+	width: 18.75rem;
+	position: absolute;
+	top: 1.3rem;
+	z-index: 1;
+}
+.container .pagelist .page6 .great-c{
+	width: 15.5rem;
+	position: absolute;
+	top: 4.13rem;
+	left: 1.7rem;
+	z-index: 2;
+}
+.container .pagelist .page6 .tiny-c{
+	width: 11.5rem;
+	position: absolute;
+	top: 6.875rem;
+	left: 3.63rem;
+	z-index: 2;
+}
+.container .pagelist .page6 .orange{
+	width: 9.25rem;
+	position: absolute;
+	top: 5.3rem;
+	left: 4.8rem;
+	z-index: 2;
+}
+.container .pagelist .page6 .button{
+	width: 10.5rem;
+	position: absolute;
+	bottom: 4rem;
+	left: 4.15rem;
+	z-index: 10;
+}
+
+
+/*动画效果*/
+@-webkit-keyframes swing-little{
+	0%{
+		-webkit-transform: rotate3d(55,35,61,20deg);
+		transform: rotate3d(55,35,61,-20deg) ;
+	}
+	50%{
+		-webkit-transform: rotate3d(55,35,61,20deg);
+		transform: rotate3d(55,35,61,20deg);
+	}
+	100%{
+		-webkit-transform: rotate3d(55,35,61,20deg);
+		transform: rotate3d(55,35,61,-20deg);
+	}
+}
+@-webkit-keyframes zoom{
+	0%{
+		-webkit-transform: scale(.9, .9);
+    	transform: scale(.9, .9);
+	}
+	50%{
+		-webkit-transform: scale(1.1, 1.1);
+    	transform: scale(1.1, 1.1);
+	}
+	100%{
+		-webkit-transform: scale(.9, .9);
+    	transform: scale(.9, .9);
+	}
+}
+@-webkit-keyframes slide-little{
+	0%{
+		transform: rotate(-90deg) translate(10%, -10%);
+	}
+	50%{
+		transform: translate(0, 0 ) rotate(-90deg);
+		opacity: 0;
+	}
+	100%{
+    transform: translate(0, 0) rotate(-90deg);
+    opacity: 0;
+	}
+}
+@-webkit-keyframes slide-little-left-fire{
+	0%{
+		transform: rotate(40deg) translate(10%, -10%);
+	}
+	50%{
+		transform: translate(0, 0 ) rotate(40deg);
+		opacity: 0;
+	}
+	100%{
+    transform: translate(0, 0) rotate(40deg);
+    opacity: 0;
+	}
+}
+@-webkit-keyframes slide-little-right-fire{
+	0%{
+		transform: rotate(-40deg) translate(10%, -10%);
+	}
+	50%{
+		transform: translate(0, 0 ) rotate(-40deg);
+		opacity: 0;
+	}
+	100%{
+    transform: translate(0, 0) rotate(-40deg);
+    opacity: 0;
+	}
+}
+@-webkit-keyframes slide-little-bottom-fire{
+	0%{
+		transform: rotate(0deg) translate(0, 0);
+	}
+	50%{
+		transform: translate(0, 0 ) rotate(0deg);
+		opacity: 0;
+	}
+	100%{
+    transform: translate(0, 0) rotate(0deg);
+    opacity: 0;
+	}
+}
+@-webkit-keyframes rocket{
+	0%{
+		transform: translate3d(0,0,0);
+		
+	}
+	50%{
+		transform: translate3d(10%,-10%,0);
+	}
+	100%{
+		transform: translate3d(0,0,0);
+	}
+}
+
+@keyframes walk {
+ 		0%{
+ 			transform: rotate(-40deg);
+ 		}
+ 		50%{
+ 			transform: rotate(0);
+ 		}
+ 		100%{
+ 			transform: rotate(-40deg);
+ 		}
+}
+@-webkit-keyframes show-fire{
+	0%{
+		opacity: 0;
+	}
+	90%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+@-webkit-keyframes swing-spaceship{
+	0%{
+		-webkit-transform: rotate3d(55,35,61,20deg);
+		transform: rotate3d(55,35,61,-5deg) ;
+	}
+	50%{
+		-webkit-transform: rotate3d(55,35,61,20deg);
+		transform: rotate3d(55,35,61,5deg);
+	}
+	100%{
+		-webkit-transform: rotate3d(55,35,61,20deg);
+		transform: rotate3d(55,35,61,-5deg);
+	}
+}
+@-webkit-keyframes rotate-clockwise{
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
+
+@-webkit-keyframes rotate-anticlockwise{
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(-360deg);
+	}
+}
+
+
+@-webkit-keyframes rocket-move {
+  0% {
+    opacity: 0;
+    left: 0rem;
+    top: 30rem;
+    /*-webkit-transform: translate(-100%, 0 ,0);
+    transform: translate(-100%, 0,0);*/
+  }
+
+  100% {
+    opacity: 1;
+    left: 5.88rem;
+    top: 8rem;
+    /*-webkit-transform:none;
+    transform:none;*/
+  }
+}
+
+@-webkit-keyframes shadow-zoom{
+	0%{
+		transform: scale(1);
+	}
+	50%{
+		transform: scale(1.3);
+	}
+	100%(
+		transform: scale(1);
+	)
+}
+@-webkit-keyframes fire-show-left{
+	0%{
+		left: -100rem;
+	}
+	98%{
+		left: -100rem;
+		visibility: hidden;
+	}
+	100%{
+		left: 4.8rem;
+		visibility: hidden;
+	}
+}
+@-webkit-keyframes fire-show-right{
+	0%{
+		left: -100rem;
+	}
+	98%{
+		left: -100rem;
+		visibility: hidden;
+	}
+	100%{
+		left: 6.83rem;
+		visibility: hidden;
+	}
+}
+@-webkit-keyframes fire-show-bottom{
+	0%{
+		left: -100rem;
+	}
+	98%{
+		left: -100rem;
+		visibility: hidden;
+	}
+	100%{
+		left: 5.43rem;
+		visibility: hidden;
+	}
+}
+.container .pagelist .page1.active .orange-bg{
+	-webkit-animation: swing-little 1s linear both infinite;
+	animation: swing-little linear 1s both infinite;
+}
+.container .pagelist .page1.active .top-bg{
+	-webkit-animation: zoom 1s linear both infinite;
+	animation:  zoom 1s linear both infinite;
+}
+.container .pagelist .page1.active .main-title{
+	-webkit-animation: fadeIn 1.5s linear both  ;
+	animation: fadeIn 1.5s linear both ;
+}
+.container .pagelist .page1.active .second-title{
+	-webkit-animation: fadeInUp 1s linear both;
+	animation: fadeInUp 1s linear both;
+}
+
+
+.container .pagelist .page2.active .left-fire{
+	-webkit-animation: slide-little-left-fire  1.4s linear both infinite ;
+	animation:fire-show-left 1.5s, slide-little-left-fire  1.4s linear both infinite 1.5s;
+}
+.container .pagelist .page2.active .right-fire{
+	-webkit-animation: slide-little-right-fire  1.4s linear both infinite ;
+	animation:fire-show-right 1.5s,  slide-little-right-fire  1.4s linear both infinite 1.5s;
+}
+.container .pagelist .page2.active .bottom-fire{
+	-webkit-animation: slide-little-bottom-fire  1.4s linear both infinite ;
+	animation:fire-show-bottom 1.5s, slide-little-bottom-fire  1.4s linear both infinite 1.5s;
+}
+
+.container .pagelist .page2.active .rocket{
+	-webkit-animation: rocket-move linear both 1.5s,rocket 1.4s linear both infinite 1.5s;
+	animation: rocket-move linear both 1.5s,rocket 1.4s linear both infinite 1.5s;
+}
+
+.container .pagelist .page2.active .main-bg{
+	-webkit-animation: zoom 2.5s linear both infinite;
+	animation:  zoom 2.5s linear both infinite;
+}
+.container .pagelist .page2.active .orange-1{
+	-webkit-animation:fadeIn 7s,  zoom 3s linear both infinite ,rotate-anticlockwise 9s linear both infinite;
+	animation: fadeIn 7s,  zoom 3s linear both infinite ,rotate-anticlockwise 9s linear both infinite;
+}
+.container .pagelist .page2.active .orange-2{
+	-webkit-animation:fadeIn 7s, zoom 3s linear both infinite ,rotate-clockwise 9s linear both infinite;;
+	animation: fadeIn 7s, zoom 3s linear both infinite,rotate-clockwise 9s linear both infinite;
+}
+.container .pagelist .page2.active .orange-3{
+	-webkit-animation:fadeIn 7s,  zoom 3s linear both infinite ,rotate-clockwise 9s linear both infinite;
+	animation:fadeIn 7s,   zoom 3s linear both infinite ,rotate-clockwise 9s linear both infinite;
+}
+.container .pagelist .page2.active .orange-4{
+	-webkit-animation:fadeIn 7s,  zoom 3s linear both infinite ,rotate-anticlockwise 9s linear both infinite;
+	animation:fadeIn 7s,   zoom 3s linear both infinite,rotate-anticlockwise 9s linear both infinite;
+}
+
+.container .pagelist .page3.active .main-bg{
+	-webkit-animation: zoom 2.5s linear both infinite;
+	animation:  zoom 2.5s linear both infinite;
+}
+.container .pagelist .page3.active .astronaut{
+	animation: walk 5s linear both infinite;
+}
+.container .pagelist .page3.active .shadow{
+	animation: shadow-zoom 5s linear both infinite;
+}
+.container .pagelist .page3.active .orange-1{
+	-webkit-animation:fadeIn 7s,  zoom 3s linear both infinite ,rotate-anticlockwise 9s linear both infinite;
+	animation:fadeIn 7s,   zoom 3s linear both infinite ,rotate-anticlockwise 9s linear both infinite;
+}
+
+
+.ball {
+			  display: inline-block;
+			  width: 10rem;
+			  height: 10rem;
+			  margin: 0;
+			  border-radius: 50%;
+			  position: relative;
+			  -webkit-transform-style: preserve-3d;
+			  background: url(../img/rotate-plant.png) repeat;
+			  background-size: auto 100%;
+			  -webkit-animation: move-map 15s infinite linear;
+			  -moz-animation: move-map 15s infinite linear;
+			  -o-animation: move-map 15s infinite linear;
+			  -ms-animation: move-map 15s infinite linear;
+			  animation: move-map 15s infinite linear;
+			}
+			
+			.ball:before {
+			  content: "";
+			  position: absolute;
+			  top: 0%;
+			  left: 0%;
+			  width: 100%;
+			  height: 100%;
+			  border-radius: 50%;
+			  z-index: 2;
+			}
+			
+			.ball:after {
+			  content: "";
+			  position: absolute;
+			  border-radius: 50%;
+			  width: 100%;
+			  height: 100%;
+			  top: 0;
+			  left: 0;
+			  -webkit-filter: blur(0);
+			  opacity: 0.3;
+			}
+			
+			
+			
+			
+			
+			@-moz-keyframes move-map {
+			  0% {
+			    background-position: -849px 0; }
+			
+			  100% {
+			    background-position: 0 0; } }
+			
+			@-webkit-keyframes move-map {
+			  0% {
+			    background-position: 0 0; }
+			  100% {
+			    background-position: -100px -900px; }
+			}
+			
+			
+			@-o-keyframes move-map {
+			  0% {
+			    background-position: -849px 0; }
+			
+			  100% {
+			    background-position: 0 0; } }
+			
+			@-ms-keyframes move-map {
+			  0% {
+			    background-position: -849px 0; }
+			
+			  100% {
+			    background-position: 0 0; } }
+			
+			@keyframes move-map {
+			  0% {
+			    background-position: -849px 0; }
+			
+			  100% {
+			    background-position: 0 0; } }
+			    
+@-webkit-keyframes track{
+	0%{
+		transform: translate3d(-5%,10%,0);		
+	}
+	50%{
+		transform: translate3d(0,0,0);
+	}
+	100%{
+		transform: translate3d(-5%,10%,0);
+	}
+}
+.container .pagelist .page4.active .rocket{
+	-webkit-animation: rocket 3s linear both infinite;
+	animation:  rocket 3s linear both infinite;
+}
+.container .pagelist .page4.active .track{
+	-webkit-animation: zoom 3s linear both infinite;
+	animation:  track 3s linear both infinite;
+}
+.container .pagelist .page4.active .main-bg{
+	-webkit-animation: zoom 2.5s linear both infinite;
+	animation:  zoom 2.5s linear both infinite;
+}
+.container .pagelist .page4.active .orange-1{
+	-webkit-animation:fadeIn 7s,  zoom 3s linear both infinite ,rotate-clockwise 9s linear both infinite;
+	animation:fadeIn 7s,   zoom 3s linear both infinite ,rotate-clockwise 9s linear both infinite;
+}
+
+
+
+.container .pagelist .page5.active .main-bg{
+	-webkit-animation: zoom 2.5s linear both infinite;
+	animation:  zoom 2.5s linear both infinite;
+}
+.container .pagelist .page5.active .orange-1{
+	-webkit-animation:fadeIn 7s,  zoom 3s linear both infinite ,rotate-anticlockwise 9s linear both infinite;
+	animation:fadeIn 7s,   zoom 3s linear both infinite ,rotate-anticlockwise 9s linear both infinite;
+}
+.container .pagelist .page5.active .orange-2{
+	-webkit-animation:fadeIn 7s,  zoom 3s linear both infinite ,rotate-clockwise 9s linear both infinite;
+	animation:fadeIn 7s,   zoom 3s linear both infinite ,rotate-clockwise 9s linear both infinite;
+}
+.container .pagelist .page5.active .orange-3{
+	-webkit-animation:fadeIn 7s,  zoom 3s linear both infinite ,rotate-anticlockwise 9s linear both infinite;
+	animation: fadeIn 7s,  zoom 3s linear both infinite ,rotate-anticlockwise 9s linear both infinite;
+}
+.container .pagelist .page5.active .spaceship{
+	animation: swing-spaceship 2.5s linear both infinite;
+	-webkit-animation: swing-spaceship 2.5s linear both infinite;
+}
+.container .pagelist .page5.active .light{
+	animation: flash 3s linear both infinite;
+	-webkit-animation: flash 3s linear both infinite;
+}
+
+
+.container .pagelist .page6.active .main-bg{
+	-webkit-animation: zoom 2.5s linear both infinite;
+	animation:  zoom 2.5s linear both infinite;
+}
+.container .pagelist .page6.active .great-c{
+	animation: rotate-clockwise 8s linear both infinite;
+}
+.container .pagelist .page6.active .tiny-c{
+	animation: rotate-anticlockwise 8s linear both infinite;
+}
+.container .pagelist .page6.active .orange{
+	animation: pulse 3s linear both infinite;
+}
+
+.page2 .details{
+	width: 15rem;
+	position: absolute;
+	left: 1.85rem;
+	top: 4.75rem;
+}
+.page3 .details{
+	width: 16.5rem;
+	position: absolute;
+	left: 1.13rem;
+	top: 1.63rem;
+}
+.page4 .details{
+	width: 16.5rem;
+	position: absolute;
+	left: 1.13rem;
+	top: 1.63rem;
+}
+.page5 .details{
+	width: 15rem;
+	position: absolute;
+	left: 1.85rem;
+	top: 4.75rem;
+}
+.tips-dad{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+	background-color: rgba(228,228,228,0.5);
+	display: none;	
+}
+.page2 .close-btn{
+	width: 2rem;
+	position: absolute;
+	top: 3.88rem;
+	right: 1.25rem;
+	display: block;
+	z-index: 11;
+}
+.page3 .close-btn{
+	width: 2rem;
+	position: absolute;
+	top: 0.75rem;
+	right: 0.5rem;
+	display: block;
+	z-index: 11;
+}
+.page4 .close-btn{
+	width: 2rem;
+	position: absolute;
+	top: 0.75rem;
+	right: 0.5rem;
+	display: block;
+	z-index: 11;
+}
+.page5 .close-btn{
+	width: 2rem;
+	position: absolute;
+	top: 3.88rem;
+	right: 1.25rem;
+	display: block;
+	z-index: 11;
+}
+.container .pagelist .page4.active .shadow{
+	width: 8rem;
+	height: 8rem;
+	border-radius: 50%;
+	background: #b8bbc5;
+	position: absolute;
+	top: 10.5rem;
+	left: 4.5rem;
+	opacity: 0.5;
+	z-index: 3;
+}
